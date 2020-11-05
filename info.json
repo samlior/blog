@@ -1,8 +1,8 @@
 {
     "topicsList": [
         {
-            "topics": "Test",
-            "list": [
+            "topic": "Test",
+            "blogList": [
                 {
                     "timestamp": "2020-11-05",
                     "title": "Test",
