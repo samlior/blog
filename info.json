@@ -16,9 +16,9 @@
             "blogList": [
                 {
                     "timestamp": "2020-11-05",
-                    "title": "杂谈",
+                    "title": "第一篇博客",
                     "path": "talk.md",
-                    "description": "瞎鸡儿扯"
+                    "description": "Samlr的第一篇博客"
                 }
             ]
         }
