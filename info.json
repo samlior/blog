@@ -6,7 +6,8 @@
                 {
                     "timestamp": "2020-11-05",
                     "title": "Test",
-                    "path": "Uniswap.md"
+                    "path": "Uniswap.md",
+                    "description": "This is a test for blog"
                 }
             ]
         }
