@@ -1,4 +1,46 @@
 {
+    "funstuffList": [
+        {
+            "category": "Website 网站",
+            "hrefList": [
+                {
+                    "href": "https://etherpad.samlr.xyz",
+                    "hrefText": "etherpad.samlr.xyz",
+                    "description": "etherpad-lite协作工具(不定期删库)"
+                },
+                {
+                    "href": "https://www.asciiart.eu",
+                    "hrefText": "asciiart.eu",
+                    "description": "ascii艺术网站"
+                },
+                {
+                    "href": "http://patorjk.com/software/taag",
+                    "hrefText": "patorjk.com",
+                    "description": "ascii艺术字生成网站"
+                },
+                {
+                    "href": "http://web.archive.org",
+                    "hrefText": "web.archive.org",
+                    "description": "保存其他网站快照的网站(可以回溯到很久以前哦)"
+                },
+                {
+                    "href": "https://trow.cc/board",
+                    "hrefText": "trow.cc",
+                    "description": "有意思的小众论坛"
+                },
+                {
+                    "href": "https://2dwillneverdie.com",
+                    "hrefText": "2dwillneverdie.com",
+                    "description": "帅气的2d游戏素材网站"
+                },
+                {
+                    "href": "http://emn178.github.io/online-tools",
+                    "hrefText": "emn178.github.io",
+                    "description": "诸多密码学算法在线计算(包括keccak256)"
+                }
+            ]
+        }
+    ],
     "topicsList": [
         {
             "topic": "Technology sharing 技术分享",
