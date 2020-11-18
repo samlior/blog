@@ -60,6 +60,12 @@
                     "title": "Uniswap",
                     "path": "Uniswap.md",
                     "description": "浅析Uniswap合约工作原理"
+                },
+                {
+                    "timestamp": "2020-11-18",
+                    "title": "KBucket",
+                    "path": "KBucket.md",
+                    "description": "浅析Kad网络及K桶工作原理"
                 }
             ]
         },
