@@ -36,7 +36,7 @@ Casper FFG 提议区块时选取父级区块的逻辑与传统区块链略微有
 
 Casper FFG 在投票时, 不是对单一区块投票, 而是对两个检查点投票, 这两个检查点可能跨越了一个或多个世代. 这个世代的每个区块都会为之前的世代收集来自验证人的投票. 每一张投票的结构(AttestationData)如下:
 
-```
+```python
 class AttestationData(Container):
     slot: Slot
     index: CommitteeIndex
@@ -99,3 +99,12 @@ class AttestationData(Container):
 > NOTE: Ethereum2.0 用了 BLS 聚合签名, 使区块体积比 Cosmos 更小, 这也算一个优点但这不算 Casper FFG 的优点, 因此不归类.
 
 当然, 有好处也有坏处, 最大的坏处就是 Casper FFG 不能和 Tendermint 一样做到出块即敲定. 处于 `unsafe` 状态的区块随时可能被回滚. 从一笔交易被打包到这笔交易被敲定, 至少要等两个世代, 也就是差不多 12 分钟.
+
+## 引用
+
+以上只是对 Casper FFG & LMD GHOST 的简单介绍, 如果你想更深入的了解的话, 可以参考:
+
+- [CASPER](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/gasper/)
+- [Casper the Friendly Finality Gadget](https://arxiv.org/pdf/1710.09437.pdf)
+- [Combining GHOST and Casper](https://arxiv.org/pdf/2003.03052.pdf)
+- [consensus-specs](https://github.com/ethereum/consensus-specs)
